@@ -1,11 +1,11 @@
-a) No working dir, executar o comando:
-echo 01 > arquivo.txt
-b) Adicionar o arquivo no staging e conferir o status
-git add arquivo.txt
-git status
-c) Commitar o arquivo do staging com a descrição "git add example - arquivo.txt“
-git commit -m "git add example - arquivo.txt“
-d) Sobrescrever o conteúdo do arquivo.txt:
+a) No working dir, executar o comando:\n
+echo 01 > arquivo.txt\n
+b) Adicionar o arquivo no staging e conferir o status\n
+git add arquivo.txt\n
+git status\n
+c) Commitar o arquivo do staging com a descrição "git add example - arquivo.txt“\n
+git commit -m "git add example - arquivo.txt“\n
+d) Sobrescrever o conteúdo do arquivo.txt:\n
 echo 02 > arquivo.txt
 e) Verificar o diffing no arquivo
 git diff
