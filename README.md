@@ -14,10 +14,21 @@ C - git commit -m "git add example - arquivo.txt“\
 d) Sobrescrever o conteúdo do arquivo.txt:\
 echo 02 > arquivo.txt\
 e) Verificar o diffing no arquivo\
-git diff\
+E - git diff\
+diff --git a/arquivo.txt b/arquivo.txt\
+index 8a0f05e..9e22bcb 100644\
+--- a/arquivo.txt\
++++ b/arquivo.txt\
+@@ -1 +1 @@\
+-01\
++02\
 f) Adicionar novamente o arquivo no staging e conferir o status\
-git add arquivo.txt\
-git status\
+F - git add arquivo.txt\
+F - git status\
+On branch main\
+Changes to be committed:\
+  (use "git restore --staged <file>..." to unstage)\
+        modified:   arquivo.txt\
 g) Verificar o diffing no arquivo\
 G - git diff\
 diff --git a/arquivo.txt b/arquivo.txt\
