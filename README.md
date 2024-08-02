@@ -1,4 +1,4 @@
-a) No working dir, executar o comando:
+a) No working dir, executar o comando:\
 echo 01 > arquivo.txt
 b) Adicionar o arquivo no staging e conferir o status
 git add arquivo.txt
