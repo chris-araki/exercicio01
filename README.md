@@ -28,4 +28,4 @@ l) Adicionar um arquivo gitignore com o seguinte conteúdo:\
 *.txt\
 echo "*.txt" > .gitignore\
 m) Criar um arquivo novo.txt e verificar o status\
-echo "" > novo.txt\
+echo "" > novo.txt
