@@ -82,4 +82,13 @@ l) Adicionar um arquivo gitignore com o seguinte conteúdo:\
 *.txt\
 L - echo "*.txt" > .gitignore\
 m) Criar um arquivo novo.txt e verificar o status\
-M - echo "" > novo.txt
+M - echo "" > novo.txt\
+M - git status (arquivo "novo.txt" não irá aparecer nos status)\
+On branch main\
+Changes to be committed:\
+  (use "git restore --staged <file>..." to unstage)\
+        modified:   arquivo.txt\
+\
+Untracked files:\
+  (use "git add <file>..." to include in what will be committed)\
+        .gitignore
