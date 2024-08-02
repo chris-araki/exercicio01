@@ -60,7 +60,7 @@ Changes not staged for commit:\
 \
 no changes added to commit (use "git add" and/or "git commit -a")\
 k) Realizar o commit do arquivo e verificar o log\
-K - git add arquivo.txt
+K - git add arquivo.txt\
 K - git commit -m "git add example - arquivo.txt“\
 [main 19d8030] git add example - arquivo.txt\
  1 file changed, 1 insertion(+), 1 deletion(-)\
